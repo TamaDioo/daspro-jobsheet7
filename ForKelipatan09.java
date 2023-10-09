@@ -6,6 +6,7 @@ public class ForKelipatan09 {
 
         //Inisialisasi variabel
         int kelipatan, jumlah = 0, counter = 0;
+        double rataRata;
 
         //Kode untuk meminta input dari keyboard
         System.out.print("Masukkan bilangan kelipatan (1-9): ");
@@ -18,8 +19,14 @@ public class ForKelipatan09 {
                 counter++;
             }
         }
-        //Tampilkan banyaknya bilangan kelipatan dan total bilangan kelipatan pada rentang 1 sampai dengan 50.
+
+        //Menghitung rata-rata dari seluruh bilangan kelipatan yang ditentukan.
+        rataRata = (double) jumlah / counter;
+
+        //Tampilkan banyaknya bilangan kelipatan, total bilangan, dan rata-rata kelipatan pada rentang 1 sampai dengan 50.
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
         System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, jumlah);
+        System.out.printf("Rata-rata dari seluruh bilangan kelipatan %d adalah: %.2f\n", kelipatan, rataRata);
+        // .2 digunakan untuk menampilkan dua digit angka setelah koma, f digunakan untuk mencetak nilai desimal
     }
 }
