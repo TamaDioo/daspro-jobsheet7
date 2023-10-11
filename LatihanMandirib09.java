@@ -1,7 +1,7 @@
 public class LatihanMandirib09 {
     public static void main(String[] args) {
 
-        // Deklarasikan variabel i dan jumlah untuk menyimpan hasil penjumlahan
+        // Deklarasi variabel i dan jumlah untuk menyimpan hasil penjumlahan
         int jumlah, i;
         //Inisialisasi variabel jumlah dengan nilai 0
         jumlah = 0;
