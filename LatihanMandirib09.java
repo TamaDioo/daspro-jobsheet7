@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class LatihanMandirib09 {
     public static void main(String[] args) {
 
